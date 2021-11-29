@@ -1,0 +1,13 @@
+name: tf2.6
+channels:
+  - fastchan
+  - anaconda
+  - esri
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - cudatoolkit~=11.2
+  - cudnn~=8.1
+  - pip:
+    - tensorflow==2.6.*

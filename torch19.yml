@@ -20,3 +20,4 @@ dependencies:
     - fastcore
     - timm
     - jupyter
+    - mlflow
