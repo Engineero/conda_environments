@@ -1,0 +1,26 @@
+name: torch_nightly
+channels:
+  - pytorch-nightly
+  - nvidia
+  - fastchan
+  - anaconda
+  - esri
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - cudatoolkit=11.3
+  - cudnn=8.1
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+    - pytorch-lightning
+    - albumentations
+    - effdet
+    - ensemble-boxes
+    - fastcore
+    - timm
+    - jupyter
+    - mlflow
+
